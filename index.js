@@ -20,7 +20,7 @@ BluetoothSerial.on = (eventName, handler) => {
 BluetoothSerial.removeListener = (eventName, handler) => {
   DeviceEventEmitter.removeListener(eventName, handler)
 }
-
+//
 /**
  * Write data to device, you can pass string or buffer,
  * We must convert to base64 in RN there is no way to pass buffer directly
